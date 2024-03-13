@@ -1,0 +1,117 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+/* Reset e configurações globais */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1ce27cfb;
+    margin: 0px;
+}
+/* Estilo da seção principal */
+article{
+    background-color: #ffffff;
+    width: 560px;
+    margin: auto;
+    padding: 1px 17px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 10px 37px 1px;
+}
+article > h1{
+    font-family: 'Android';
+}
+body > article > p{
+    text-indent: 20px;
+}
+/* Estilo do cabeçalho */
+header{
+    background-image: linear-gradient(to bottom, #2acd92, #138444 50%);
+    padding: 1px 0px 11px;
+    box-shadow: black 0px 5px 14px;
+    margin-bottom: 0.5px;
+}
+header > h1{
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+header > p{
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 14px;
+}
+header > nav > a{
+    color: #ffffff;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+header > nav > a:hover{
+    color: #B329A9
+}
+/* Estilo dos títulos */
+h1, h2{
+    color: #138444;
+}
+h2{
+    font-family: 'Android';
+    background-image: linear-gradient(to right, #26c7265f, #ffffff);
+    font-size: 20px;
+    padding: 1px 5px;
+}
+h3{
+    background-color: #094a09dd;
+    color: #ffffff;
+}
+/* Estilo da seção principal */
+section{
+    background-color: #89ffd482;
+    border-radius: 20px;
+    padding: 0px;
+    box-shadow: 1px 3px 24px -15px;
+}
+.conteudo-da-secao{
+    padding: 9px;
+    text-indent: 20px;
+}
+/* Estilo do rodapé */
+footer{
+    background-color: #138444;
+    text-align: center;
+    margin-top: 20px;
+    font-size: small;
+    padding: 7px;
+    color: white;
+}
+.destaque{
+    font-weight: bold;
+    color: #1ebd63;
+}
+.destaque-de-rodape{
+    font-weight: bold;
+}
+/* Estilo dos links */
+a{
+    text-decoration: none;
+    color: #2cbc6a;
+    font-weight: bolder;
+}
+a:hover{
+    color: #B329A9;
+    text-decoration-line: underline;
+}
+.link::after{
+    content:" ☍";
+}
+/* Estilo do título da seção */
+.titulo-da-secao{
+    background-color: #138444;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    font-weight: bolder;
+}

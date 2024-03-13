@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/*aavnernvrei*/
+body{
+    background-color: aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+h1{
+    color: crimson;
+    background-color: bisque;
+}
+h2{
+    color: brown;
+}
+p{
+    text-align: justify;
+}

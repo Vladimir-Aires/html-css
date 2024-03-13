@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais formatações</title>
+</head>
+<body>
+    <h1>Série de exemplos</h1>
+    <h2>Código fonte / Pré-Formatação</h2>
+    <p>O código fonte, usando a tag code, faz com que, por exemplo, uma linha de código fique mono-espaçada. Ou seja, todos os caracteres terão o mesmo espaço visual. Exemplo: <br> O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
+    <p>A pré-formatação, usando a tag pre, deixa o texto mostrado no site da mesma forma como ele está organizado em código. Exemplo: <br>
+    <pre><code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+    print(f'O número {num} é PAR')
+    else:
+    print(f'O número {num} é IMPAR')
+    print('Fim do programa') <!--não tenho uma ideia perfeitamente clara do que isso signifique, no momento, mas, taí um exemplo kk--> <!--a questão do espaço em relação à margem pode ser tratada usando shift+tab ou só o tab-->
+    </code></pre></p>
+    <h2>Quanto a citações simples</h2>
+    <p>Usando a tag q, aplicam-se aspas no que foi dito: <br>Como diria Sêneca: <q>sofremos mais na imaginação do que na realidade</q></p>
+    <h2>Citações completas</h2>
+    <p>Estas contém uma quebra de linha e um deslocamento horizontal: <br> Segundo dados da Wikipedia sobre o ciclo OODA:
+    <blockquote cite="https://en.wikipedia.org/wiki/OODA_loop"><!--isso confere os direitos do autor e facilita os mecanismos de busca-->
+
+     The OODA loop is the cycle observe–orient–decide–act, developed by military strategist and United States Air Force Colonel John Boyd. Boyd applied the concept to the combat operations process, often at the operational level during military campaigns. It is now also often applied to understand commercial operations and learning processes.</blockquote> </p>
+     <h2>Quanto a abreviações</h2>
+     <p>Usando a tag abbr, formula um pequeno pop-up com a explicação do que se trata o acrônimo, ao passar o mouse por cima.Exemplo: <br> <abbr title="Organization-Orientation-Deciding-Action">OODA</abbr> cycle</p>
+     <h2>Textos invertidos</h2>
+     <p>Usando a tag bdo... Bem, vai ficar bem auto explicativo: <br> <bdo dir="rtl">Este é um exemplo</bdo></p>
+
+    
+</body>
+</html>

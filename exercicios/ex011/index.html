@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias trabalhadas em HTML</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>A ideia é abrir esse site em diferentes dispositivos ou apenas alterar o tamanho do navegador para verificar se o código funciona corretamente.</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    
+    <h1>Quanto a reprodução de áudio</h1>
+    <p>Método de reprodução de áudio em HTML5:</p>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midias/lawrence-track-tribe.mp3" type="audio/mpeg">
+        <source src="midias/lawrence-track-tribe.ogg" type="audio/ogg">
+        <source src="midias/lawrence-track-tribe.wav" type="audio/wav">
+        <p>O navegador não tem suporte para áudio. <a href="midias/lawrence-track-tribe.mp3" download="lawrence-track-tribe.mp3" type="audio/mpeg">Clique aqui para download do arquivo de áudio</a></p><!--essa opção de download só aparecerá na página se o navegador realmente não suportar nenhuma das 3 versões acima (algo bem raro)-->
+    </audio>
+</body>
+</html>

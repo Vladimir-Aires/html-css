@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre links</title>
+    <style>
+        /*  
+        símbolos utilizáveis em CSS: 
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = child 
+         */
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+          
+        }
+        a{
+            text-decoration: none;
+            color: #dc143c;
+        }
+        a:visited{
+            color: #8a2be2;
+        }
+        a:hover{
+            color: #00ffff;
+            text-decoration: underline;
+        }
+        a:active{
+            color: coral;
+            background-color: black;
+        }
+        a::after{
+            content:" (link)";
+            font-size: 13px;
+            text-decoration: none;
+            font-weight: 600;
+            color: #9e805bda;
+        }
+        ul > li::first-letter{
+            font-size: 2em;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalização de links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=ag7mdF9qEns&t=261s" rel="external" target="_blank">Lofi dos clássicos</a></li>
+        <li><a href="https://www.youtube.com/watch?v=73-sO3MVuWg&t=12289s" rel="external" target="_blank">Phonk</a></li>
+        <li><a href="https://www.youtube.com/watch?v=R2Bg-8IO6vA" rel="external" target="_blank">Um clássico do bom</a></li>
+    </ul>
+    
+</body>
+</html>
